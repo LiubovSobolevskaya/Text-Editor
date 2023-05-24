@@ -6,6 +6,7 @@ Please see the [deployed website]()
 ## Description
 
 Given a text editor web application, when the application is opened in the editor, a folder structure with client and server components should be visible. When the command "npm run start" is executed from the root directory, the application starts the backend server and serves the client. Running the text editor application from the terminal results in JavaScript files being bundled using webpack. Running the webpack plugins generates an HTML file, service worker, and manifest file. Utilizing next-gen JavaScript ensures that the text editor functions correctly in the browser without errors. Upon opening the text editor, IndexedDB immediately creates a database storage. Entering content and clicking off the DOM window automatically saves the content in the text editor using IndexedDB. Reopening the text editor retrieves the previously entered content from IndexedDB. Clicking on the Install button allows downloading the web application as a desktop icon. When loading the web application, a registered service worker, implemented using workbox, pre-caches static assets including subsequent pages and static assets. 
+
 ---
 
 ## Technology Used
