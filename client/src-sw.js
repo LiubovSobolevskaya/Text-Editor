@@ -32,7 +32,8 @@ const matchCallback = ({ request }) => {
   console.log(request);
   return (
     request.destination === 'style' ||
-    request.destination === 'script'
+    request.destination === 'script' ||
+    request.destination === 'worker'
   );
 };
 
