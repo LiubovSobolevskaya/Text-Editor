@@ -28,6 +28,8 @@ warmStrategyCache({
 // Registers a route handler for navigation requests and caches them using 'pageCache'
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
+offlineFallback({ pageFallback: '/index.html' });
+
 // Defines the name for the asset cache
 const cacheName = 'asset-cache';
 
