@@ -1,7 +1,7 @@
 # Text-Editor
 14th Assignment of UCB Extension Web Development Bootcamp
 
-Please see the [deployed website](https://dashboard.heroku.com/apps/pwa-text-editor-luba/deploy/github)
+Please see the [deployed website](https://pwa-text-editor-luba.herokuapp.com/)
 
 ## Description
 
@@ -20,6 +20,7 @@ Given a text editor web application, when the application is opened in the edito
 
 
 ## Requirements
+Run the following commands in you terminal:
 
 ```
 npm install
